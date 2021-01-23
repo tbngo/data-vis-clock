@@ -3,7 +3,7 @@ let x = [], y = []
 let asteroidYCoord = []
 
 function setup() {
-	createCanvas(800,600); 
+    createCanvas(800,600); 
     frameRate(1)
   
 	// generate coordinates for the location of stars
@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-	noStroke();
+    noStroke();
     background(50,50,50);
   
     // Sun
